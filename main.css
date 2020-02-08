@@ -135,6 +135,8 @@
 				.dropdown {
   					  position: relative;
   					  display: inline-block;
+					  color: white;
+					background-color: black;
 					}
 
 .dropdown-content {
