@@ -16,6 +16,11 @@ h1
 {
 	text-align: center;
 }
+[class*="col-"]
+{
+	float: left;
+	padding: 15px;
+}
 .text
 {
 	font: 15px solid verdana;
@@ -86,10 +91,33 @@ section
 		width: 50%;
 	}
 }
+
 @media only screen and (max-width: 668px)
 {
 	.section_1 .section_2 .section_3
 	{
 		width: 100%;
 	}
+}
+@media only screen and (min-width: 668px)
+{
+.col-t-1{width: 12.5%;}
+.col-t-2{width: 25%;}
+.col-t-3{width: 37.5%;}
+.col-t-4{width: 50%;}
+.col-t-5{width: 62.75%;}
+.col-t-6{width: 75%;}
+.col-t-7{width: 87.5%;}
+.col-t-8{width: 100%;}
+}
+@media only screen and (min-width: 991px)
+{
+.col-1{width: 12.5%;}
+.col-2{width: 25%;}
+.col-3{width: 37.5%;}
+.col-4{width: 50%;}
+.col-5{width: 62.75%;}
+.col-6{width: 75%;}
+.col-7{width: 87.5%;}
+.col-8{width: 100%;}
 }
