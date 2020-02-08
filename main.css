@@ -79,11 +79,11 @@ section
 {
 	.section_1 .section_2
 	{
-		width: 50%;
+		width: 33%;
 	}
 	.section_3
 	{
-		width: 100%;
+		width: 50%;
 	}
 }
 @media only screen and (max-width: 668px)
