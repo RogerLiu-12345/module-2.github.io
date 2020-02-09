@@ -109,7 +109,7 @@
 			{
 				
 			}
-			@media screen and (max-width : 668px)
+			@media screen and (max-width : 768px)
 			{
 				#text_1 #text_2 #text_3
 				{
@@ -166,7 +166,7 @@
 .dropdown:hover .dropdown-content {display: block;}
 .dropdown:hover .dropbtn {background-color: grey;}
 			}
-@media only screen and (min-width: 600px)
+@media only screen and (min-width: 768px)
 {
 .col-t-1{width: 12.5%;}
 .col-t-2{width: 25%;}
@@ -177,7 +177,7 @@
 .col-t-7{width: 87.5%;}
 .col-t-8{width: 100%;}
 }
-@media only screen and (min-width: 768px)
+@media only screen and (min-width: 992px)
 {
 .col-1{width: 12.5%;}
 .col-2{width: 25%;}
